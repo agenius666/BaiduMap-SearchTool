@@ -1,0 +1,56 @@
+# Python开发通用忽略
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyi
+
+# 虚拟环境相关
+venv/
+.env/
+.venv/
+bin/
+lib/
+include/
+pip-selfcheck.json
+
+# 构建和发布目录
+build/
+dist/
+*.egg-info/
+*.spec
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+
+# 本地生成的文件
+*.xlsx         # 排除所有Excel输出文件
+*.log          # 日志文件
+config_*.json  # 本地配置文件
+local_settings.py
+
+# 系统隐藏文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 缓存和临时文件
+*.tmp
+*.cache
+
+# 测试相关忽略（如果有测试目录）
+test_output/
+
+# 特殊忽略项（针对项目中的临时文件）
+/temp/
+/output/
+
+# PyInstaller生成的文件
+webdriver_manager/
+geckodriver.log
+chromedriver.log
